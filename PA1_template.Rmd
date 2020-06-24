@@ -5,12 +5,12 @@ output:
     keep_md: true
 ---
   
-  ```{r setup, include=FALSE}
+  ```{r setup, include=TRUE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-```{r gapminder, echo=FALSE}
+```{r gapminder, echo=TRUE}
 
 
 filename <- "activity.zip"
